@@ -3,8 +3,8 @@ import sys
 
 # import gexf
 
-from node import Node
-from edge import Edge
+from models.node import Node
+from models.edge import Edge
 
 INPUT_FILE_NAME = 'LesMiserables.gexf'
 

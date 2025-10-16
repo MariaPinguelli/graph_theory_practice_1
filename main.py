@@ -1,6 +1,6 @@
-from read_and_format_data import read_and_format_data
-from calculate_eccentricity import calculate_eccentricity
-from calculate_closeness_centrality import calculate_closeness_centrality
+from modules.graph_reader import read_and_format_data
+from modules.eccentricity import calculate_eccentricity
+from modules.closeness_centrality import calculate_closeness_centrality
 
 def main():
     # Tratar dados de entrada
